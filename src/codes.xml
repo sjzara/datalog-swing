@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<codes>
+    <code name="AG" description="Aligned gulley" label="G" bcode_use="Width"/>
+    <code name="RP" description="Rain water pipe" label="RWP"/>
+    <code name="DK" description="Drop kerb" label="DK" acode_use="Link" bcode_use="Width"/>
+    <code name="KB" description="Kerb" acode_use="Link" bcode_use="Width"/>
+    <code name="KC" description="Curved kerb" acode_use="Link" bcode_use="Width"/>
+    <code name="FE" description="Fence" acode_use="Link" bcode_use="Width"/>
+    <code name="WL" description="Wall" acode_use="Link" bcode_use="Width"/>
+    <code name="WC" description="Curved wall" acode_use="Link" bcode_use="Width"/>
+    <code name="SE" description="Surface edge" acode_use="Link" bcode_use="Width"/>
+    <code name="SC" description="Curved surface edge" acode_use="Link" bcode_use="Width"/>
+    <code name="TR" description="Tree" acode_use="Trunk radius" bcode_use="Canopy radius" point_code="true"/>
+    <code name="BE" description="Building edge" acode_use="Link" bcode_use="Width"/>
+    <code name="MH" description="Manhole" acode_use="Link" bcode_use="Width" point_code="true"/>
+    <code name="CM" description="Circular manhole" bcode_use="Radius" point_code="true"/>
+    <code name="IC" description="Inspection cover" acode_use="Link" bcode_use="Width" point_code="true"/>
+    <code name="CP" description="Centre post (point)" point_code="true"/>
+    <code name="RS" description="Road sign" acode_use="Link" bcode_use="Width"/>
+    <code name="NB" description="Notice board" acode_use="Link" bcode_use="Width"/>
+    <code name="NP" description="Name plate" acode_use="Link" bcode_use="Width"/>
+    <code name="SV" description="Stop valve"/>
+    <code name="LB" description="Letter box" point_code="true"/>
+    <code name="FH" description="Fire hydrant" point_code="true"/>
+    <code name="PO" description="Post" point_code="true"/>
+    <code name="GR" description="Grass" label="GRASS"/>
+    <code name="CO" description="Concrete" label="CONCRETE"/>
+    <code name="TA" description="Tarmac" label="TARMAC"/>
+    <code name="HG" description="Hedge" acode_use="Link" bcode_use="Width"/>
+    <code name="TC" description="Telephone cable" acode_use="Link"/>
+    <code name="EC" description="Electricity cable" acode_use="Link"/>
+    <code name="BO" description="Bollard" point_code="true"/>
+    <code name="OHR" description="Tree/shrub overhang to the right" acode_use="Link" bcode_use="Offset"/>
+    <code name="OHL" description="Tree/shrub overhang to the left" acode_use="Link" bcode_use="Offset"/>
+    <code name="SL" description="Spot level" point_code="true"/>
+    <code name="MF" description="Move forward (bearing acode_use=distance and VA are ignored)" acode_use="Link" bcode_use="Distance"/>
+    <code name="ML" description="Move left (bearing acode_use=distance and VA are ignored)" acode_use="Link" bcode_use="Distance"/>
+    <code name="MR" description="Move right (bearing acode_use=distance and VA are ignored)" acode_use="Link" bcode_use="Distance"/>
+</codes>
